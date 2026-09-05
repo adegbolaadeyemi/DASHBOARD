@@ -1,0 +1,168 @@
+.Dashstack {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+#dash {
+  color: #4880ff;
+  padding-left: 40px;
+}
+span {
+  background: white;
+  color: black;
+}
+a {
+  display: block;
+  text-decoration: none;
+  padding-left: 60px;
+  padding: 12px;
+  color: #202224;
+  margin-left: 40px;
+  padding-top: 35px;
+}
+a:hover {
+  background: #4880ff;
+  border-radius: 10px;
+  height: 10px;
+  padding: 10px;
+}
+.btn1 {
+  color: white;
+  background: #4880ff;
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  width: 162px;
+}
+.btn1:hover {
+  color: #ffffff;
+  background: blue;
+}
+hr {
+}
+.sidebar {
+  width: 180px;
+  background-color: white;
+  padding: 20px;
+}
+.Dashboard {
+  background: #f5f6fa;
+  width: 100%;
+}
+header {
+  height: 30px;
+  background-color: white;
+  padding: 20px;
+  padding-left: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+#search {
+  background: #d5d5d5;
+  border: none;
+  outline: none;
+}
+#search-icon {
+  vertical-align: middle;
+}
+.search-nav {
+  background: #d5d5d5;
+  width: 378px;
+  height: 25px;
+  padding: 4px;
+  border-radius: 30px;
+}
+.nav-bar img {
+  vertical-align: middle;
+  height: 25px;
+}
+.trend-up {
+  display: flex;
+  flex: row;
+  gap: 10px;
+}
+#trending-up {
+  width: 24px;
+  height: 24px;
+  margin-top: 15px;
+}
+.trend-up span {
+  color: #00b69b;
+}
+.Total-user {
+  display: flex;
+  gap: 98px;
+}
+.card {
+  background: #ffffff;
+  width: 280px;
+  height: 170px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#headings1 {
+  padding: 20px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+#span1 {
+  color: red;
+}
+.list {
+  display: flex;
+  gap: 140px;
+  background: #f1f4f9;
+  border-radius: 10px;
+  width: 97%;
+  height: 58px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.Apple {
+  display: flex;
+  gap: 10px;
+}
+.details {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.price {
+  display: flex;
+  gap: 100px;
+  margin-left: 70px;
+}
+.btn {
+  background: #00b69b;
+  color: white;
+  height: 17px;
+  border-radius: 30px;
+  padding: 10px;
+}
+.btn:hover {
+  color: white;
+  background: green;
+}
+#deals-details {
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 15px;
+  margin-left: 40px;
+  width: 92%;
+}
+.month-selector {
+  display: flex;
+  justify-content: space-between;
+}
+#months {
+  width: 12%;
+  padding: 5px;
+  height: 40px;
+  border: gray;
+  border-radius: 10%;
+  background-color: #f5f6fa;
+}
